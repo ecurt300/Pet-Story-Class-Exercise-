@@ -1,0 +1,18 @@
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\bin\Debug\net8.0\Pet Store Class Exercise 1.exe
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\bin\Debug\net8.0\Pet Store Class Exercise 1.deps.json
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\bin\Debug\net8.0\Pet Store Class Exercise 1.runtimeconfig.json
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\bin\Debug\net8.0\Pet Store Class Exercise 1.dll
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\bin\Debug\net8.0\Pet Store Class Exercise 1.pdb
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\Pet Store Class Exercise 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\Pet Store Class Exercise 1.AssemblyInfoInputs.cache
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\Pet Store Class Exercise 1.AssemblyInfo.cs
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\Pet Store Class Exercise 1.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\Pet Store Class Exercise 1.sourcelink.json
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\Pet Store Class Exercise 1.dll
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\refint\Pet Store Class Exercise 1.dll
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\Pet Store Class Exercise 1.pdb
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\Pet Store Class Exercise 1.genruntimeconfig.cache
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\ref\Pet Store Class Exercise 1.dll
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\Pet Store Class Exercise 1.csproj.AssemblyReference.cache
+C:\Users\Edward\Documents\Code Louisville\In classroom 0\Pet Store Class Exercise\Pet Store Class Exercise 1\obj\Debug\net8.0\Pet Stor.E009FF30.Up2Date
