@@ -2,8 +2,7 @@
 
 using System.Runtime.CompilerServices;
 using System.Text.Json;
-namespace Pet_Store_Class_Exercise_1
-{
+using Pet_Store_Class_Exercise_1;
 
     public static class PetStore
     {
@@ -50,85 +49,111 @@ namespace Pet_Store_Class_Exercise_1
 
             Console.WriteLine("Type 'exit' to quit");
 
-            //TODO fix main loop duplicate answers.
-            //TODO enter in dogleash info
-            //TODO Add and print the Products
-           
+            
+            string? userInput = Console.ReadLine();
+            Console.WriteLine("Press 1 to add a product; choose between cat food or a dog leash");
 
-            while ( Console.ReadLine().ToLower() != "exit")
+            //Input should work as expected.
+            Console.WriteLine("Type 'exit' to quit");
+            while (!userInput.ToLower().Equals("exit"))
             {
 
-                Console.WriteLine("Press 1 to add a product; choose between cat food or a dog leash");
 
 
-                Console.WriteLine("Type 'exit' to quit");
 
-                string? userInput = Console.ReadLine();
 
-                if (userInput == "1")
+                if (userInput.Equals("1"))
                 {
                     Console.Clear();
-                    userInput = Console.ReadLine();
-                   
+
+
                     Console.WriteLine(" Type dogleash for dogleash or catfood for catfood then follow the instructions.");
-               
-                       
-                        if(Console.ReadLine().ToLower() == "dogleash")
-                        {
-                            Console.WriteLine("Enter dog leash parameters");
-                            string name;
-                            string material;
-                            decimal price;
-                            int quantity;
-                            int length;
 
 
-                        }
-                        else if(Console.ReadLine().ToLower() == "catfood")
-                        {
-                        Console.Clear();
-                        Console.WriteLine("Enter cat food parameters");
-                        Console.Clear();
+
+
+
+                    string? productType = Console.ReadLine();
+
+
+                    if (productType == "dogleash")
+                    {
+                        Console.WriteLine("Enter dog leash parameters");
+                        
                         Console.WriteLine("Enter Name of Product");
-                            string name = Console.ReadLine();
-                        Console.Clear();
-                        Console.WriteLine("Enter Name of Price of Product");
                         
-                            decimal price = decimal.Parse(Console.ReadLine());
-                        Console.Clear();
+                        string name = Console.ReadLine();
+                        
+                        Console.WriteLine("Enter Material of Product");
+                        
+                        string material = Console.ReadLine(); ;
+                        
+                        Console.WriteLine("Enter Price of Product");
+                        
+                        decimal price = decimal.Parse(Console.ReadLine());
+                       
                         Console.WriteLine("Enter Quantity of Product");
-                            int quantity = int.Parse(Console.ReadLine());
-                        Console.Clear();
-                        Console.WriteLine("Enter weight of Product");
-                            int weight = int.Parse(Console.ReadLine());
-                        Console.Clear();
-                        Console.WriteLine("Is product for kittens?, Enter yes for kittenfood if applicable");
-                            
-                        bool kittenFood;
-                            if (Console.ReadLine() == "yes")
-                            {
-                                kittenFood = true;
-                                Console.Clear();
-                                Console.WriteLine($"{name} is kittenfood.");
-                            }
-                            else
-                            {
-                                Console.WriteLine($"I am sorry {Console.ReadLine()} is not a valid answer please try again.");
-                                 continue;
-                            }
-                         
+                       
+                        int quantity = int.Parse( Console.ReadLine());
                         
+                        Console.WriteLine("Enter Length in inches of Product");
+                        
+                        int length = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Enter weight in ibs of Product");
+                        int weight = int.Parse(Console.ReadLine());
+                        Product dogLeash = AddProduct(name,price,quantity,length,material);
+                        Console.WriteLine(JsonSerializer.Serialize(dogLeash));
+
                     }
-                   
-                 
+                    else if (productType.Equals("catfood"))
+                    {
 
+                        Console.WriteLine("Enter cat food parameters");
+
+                        Console.WriteLine("Enter Name of Product");
+                        
+                        string name = Console.ReadLine();
+
+                        Console.WriteLine("Enter Price of Product");
+                       
+                        decimal price = decimal.Parse(Console.ReadLine());
+
+                        Console.WriteLine("Enter Quantity of Product");
+                        
+                        int quantity = int.Parse(Console.ReadLine());
+
+
+                        Console.WriteLine("Enter weight of Product");
+                       
+                        int weight = int.Parse(Console.ReadLine());
+                      
+                     
                    
+
+
+                        Console.WriteLine("Is product for kittens?, Enter yes for kittenfood if applicable");
+
+                        bool kittenFood;
+                        if (Console.ReadLine().Equals("yes"))
+                        {
+                            kittenFood = true;
+                           
+                            Console.WriteLine($"{Console.ReadLine()} is kittenfood.");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"I am sorry {Console.ReadLine()} is not a valid answer please try again.");
+                            continue;
+                        }
+                      Product catfood = AddProduct(name,price, quantity, weight, kittenFood);
+                     Console.WriteLine(JsonSerializer.Serialize(catfood));
+
+                    }
                 }
-
-              
+                userInput = Console.ReadLine();
             }
-            
-            
+           
+
         }
         
     }
