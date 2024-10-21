@@ -6,13 +6,21 @@ using System.Threading.Tasks;
 
 namespace Pet_Store_Class_Exercise_1
 {
-    internal class CatFood
+    internal class CatFood : Product
     {
         public double WeightPounds {  get; set; }
 
         public bool KittenFood {  get; set; }
         
 
+        public CatFood(int weight , bool isKittenFood,decimal price,int quantity,string name) 
+        { 
+            this.Name = name;
+            this.WeightPounds = weight;
+            this.KittenFood = isKittenFood;
+            this.Price = price;
+            this.Quantity = quantity;
+        }
     
     }
 }
