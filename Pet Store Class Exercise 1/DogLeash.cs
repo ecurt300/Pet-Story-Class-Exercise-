@@ -14,8 +14,9 @@ namespace Pet_Store_Class_Exercise_1
 
         public string? Material {  get; set; }
 
-       public DogLeash(int length,string material,decimal price, int quantity, string name) 
+       public DogLeash(int length,string material,decimal price, int quantity, string name,string description) 
         { 
+            this.Description = description;
             this.LengthInches = length;
             this.Material = material;
             this.Price = price;

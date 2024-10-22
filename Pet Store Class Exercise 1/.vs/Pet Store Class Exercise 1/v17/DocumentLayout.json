@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet store class exercise 1\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\ProductLogic.cs",
+              "RelativeDocumentMoniker": "ProductLogic.cs",
+              "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\ProductLogic.cs",
+              "RelativeToolTip": "ProductLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T22:24:45.907Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -36,33 +53,36 @@
               "RelativeDocumentMoniker": "DogLeash.cs",
               "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\DogLeash.cs",
               "RelativeToolTip": "DogLeash.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBcAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:37:44.405Z"
+              "WhenOpened": "2024-10-18T18:37:44.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CatFood.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\CatFood.cs",
               "RelativeDocumentMoniker": "CatFood.cs",
               "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\CatFood.cs",
               "RelativeToolTip": "CatFood.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAA2AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:36:14.07Z"
+              "WhenOpened": "2024-10-18T18:36:14.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\Product.cs",
               "RelativeDocumentMoniker": "Product.cs",
               "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\Product.cs",
               "RelativeToolTip": "Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:33:14.764Z"
+              "WhenOpened": "2024-10-18T18:33:14.764Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,7 +92,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwDcAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAB/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T18:32:13.65Z",
               "EditorCaption": ""

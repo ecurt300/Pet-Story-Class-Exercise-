@@ -13,8 +13,9 @@ namespace Pet_Store_Class_Exercise_1
         public bool KittenFood {  get; set; }
         
 
-        public CatFood(int weight , bool isKittenFood,decimal price,int quantity,string name) 
+        public CatFood(int weight , bool isKittenFood,decimal price,int quantity,string name,string description) 
         { 
+            this.Description = description;
             this.Name = name;
             this.WeightPounds = weight;
             this.KittenFood = isKittenFood;
