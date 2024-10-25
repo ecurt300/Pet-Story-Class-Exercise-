@@ -21,7 +21,7 @@ using Pet_Store_Class_Exercise_1;
 
         private static void DisplayInstructions()
     {
-        Console.WriteLine("Press 1 to add a product; choose between cat food or a dog leash; press 8 to view all added products");
+        Console.WriteLine("Press 1 to add a product; choose between cat food or a dog leash; press 8 to view all added products;press 2 to view a dog leash");
 
 
         Console.WriteLine("Type 'exit' to quit");
@@ -58,7 +58,7 @@ using Pet_Store_Class_Exercise_1;
             ProductLogic productLogic = new ProductLogic();
             string? userInput = Console.ReadLine();
        
-            while (!userInput.ToLower().Equals("exit"))
+            while (!userInput.ToLower().Trim().Equals("exit"))
             {
 
 
@@ -166,6 +166,13 @@ using Pet_Store_Class_Exercise_1;
                 else if(userInput.Equals("8"))
                 {
                     productLogic.GetAllProducts();
+                }
+                else if(userInput.Equals("2"))
+                {
+                   Console.WriteLine("Enter the name of the dog leash ");
+                   DogLeash dogleashToView = productLogic.GetDogLeashByName(Console.ReadLine());
+                   
+                   Console.WriteLine($"Dogleash {dogleashToView.Name}");
                 }
                 userInput = Console.ReadLine();
             }
