@@ -23,6 +23,9 @@ namespace Pet_Store_Class_Exercise_1
             this.Quantity = quantity;
             this.Name = name;
         }
-
+        public DogLeash()
+        {
+            
+        }
     }
 }

@@ -22,6 +22,9 @@ namespace Pet_Store_Class_Exercise_1
             this.Price = price;
             this.Quantity = quantity;
         }
-    
+        public CatFood()
+        {
+
+        }
     }
 }
