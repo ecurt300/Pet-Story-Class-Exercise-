@@ -1,60 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 
-using System.Runtime.CompilerServices;
-using System.Text.Json;
 using Pet_Store_Class_Exercise_1;
 
     public static class PetStore
     {
+ 
 
-     private static void EnterDogFood(ProductLogic productLogic,string? userInput)
-     {
-        if( productLogic.GetDogLeashByName("") != null)
-        {
-            Console.WriteLine("Enter Dog Leash Name");
-
-            productLogic.GetDogLeashByName("").Name = userInput;
-          
-        }
-     }
-
-    /*
-     *   Console.WriteLine("Enter Dog Leash description");
-            productLogic.GetDogLeashByName("").Name = userInput;
-            Console.WriteLine("Enter Dog Leash description");
-            productLogic.GetDogLeashByName()
-     * 
-     * 
-     */
-    private static void EnterCatFood(ProductLogic productLogic, string? userInput)
-    {
-        if (productLogic.GetCatFoodByName("") != null)
-        {
-            Console.WriteLine("Enter Cat Food Name");
-            productLogic.GetCatFoodByName("").Name = userInput;
-        }
-    }
-
-    /*
-        private static bool TryAddProduct(string product)
-        {
-            if(product.ToLower() == "dogleash" || product.ToLower() == "catfood")
-            {
-         
-
-                Console.WriteLine($" product {product} has been selected");
-
-                return true;
-            }
-            else
-            {
-                Console.WriteLine("Product does not exist, please enter a valid product");
-                
-            }
-
-            return false;
-        }
-    */
+    
+ 
     public static void Main(string[] args)
     {
 
@@ -66,10 +19,6 @@ using Pet_Store_Class_Exercise_1;
         while ( userInput != null && userInput.ToLower().Trim() != "exit")
         {
 
-
-
-
-
             try
             {
                 if (userInput == "1")
@@ -78,16 +27,91 @@ using Pet_Store_Class_Exercise_1;
                     userInput = Console.ReadLine();
                     if(userInput == "dogleash")
                     {
+                        DogLeash dogLeash = new DogLeash();
+                        Console.WriteLine("Enter dogLeash parameters");
+
+                        Console.WriteLine("Enter Name of Product");
+
                         userInput = Console.ReadLine();
+
+                        string? name = userInput;
+
+                        Console.WriteLine("Enter Description of Product");
+
+                        userInput = Console.ReadLine();
+                        string? description = userInput;
+
+                        Console.WriteLine("Enter Price of Product");
+                        userInput = Console.ReadLine();
+                        decimal price = decimal.Parse(userInput);
+
+                        Console.WriteLine("Enter Quantity of Product");
+                        userInput = Console.ReadLine();
+                        int quantity = int.Parse(userInput);
+
+                        Console.WriteLine("Enter Length of Product");
+                        userInput = Console.ReadLine();
+                       
+                        decimal length = decimal.Parse(userInput);
+
+                        Console.WriteLine("Enter Type of Material of Product");
+
+                        userInput = Console.ReadLine();
+
+                        string? material = userInput;
+
+
+                        dogLeash.Quantity = quantity;
+                        dogLeash.Name = name;
+                        dogLeash.Price = price;
+                        dogLeash.Description = description;
+
+                        dogLeash.Material = material;
+
+                        dogLeash.LengthInches = (int)length;
+                        Console.WriteLine($"Cat Food {dogLeash.ToString()}");
                     }
                     else if(userInput == "cat food")
                     {
-                        userInput = Console.ReadLine();
                         CatFood catFood = new CatFood();
-                        userInput = Console.ReadLine();
-                        catFood.Name = userInput;
+                        Console.WriteLine("Enter cat food parameters");
+
+                        Console.WriteLine("Enter Name of Product");
+
                         userInput = Console.ReadLine();
 
+                        string? name = userInput;
+
+                        Console.WriteLine("Enter Description of Product");
+
+                        userInput = Console.ReadLine();
+                        string? description = userInput;
+
+                        Console.WriteLine("Enter Price of Product");
+                        userInput = Console.ReadLine();
+                        decimal price = decimal.Parse(userInput);
+
+                        Console.WriteLine("Enter Quantity of Product");
+                        userInput = Console.ReadLine();
+                        int quantity = int.Parse(userInput);
+
+                        
+                        userInput = Console.ReadLine();
+                        bool isKittenFood = false;
+                        if(userInput == "kitten food")
+                        {
+                            isKittenFood = true;
+                        }
+                        Console.WriteLine("Enter weight of Product");
+                        userInput = Console.ReadLine();
+                        int weight = int.Parse(userInput);
+                        catFood.Quantity = quantity;
+                        catFood.Name = name;
+                        catFood.Price = price;
+                        catFood.Description = description;
+                        catFood.WeightPounds = weight;
+                        catFood.KittenFood = isKittenFood;
+                        Console.WriteLine($"Cat Food {catFood.ToString()}");
                     }
                 }
 
@@ -98,7 +122,7 @@ using Pet_Store_Class_Exercise_1;
                     userInput = Console.ReadLine();
                     if (userInput?.ToLower().Trim() == "2")
                     {
-                        DogLeash dogLeash = null;
+                        DogLeash? dogLeash = null;
                         Console.WriteLine("Enter Name of Dog Leash");
                         userInput = Console.ReadLine();
                         try
@@ -119,7 +143,7 @@ using Pet_Store_Class_Exercise_1;
                     }
                    else if (userInput?.ToLower().Trim() == "3")
                     {
-                        CatFood catFood = null;
+                        CatFood? catFood = null;
                         Console.WriteLine("Enter Name of cat food");
                         userInput = Console.ReadLine();
                         try
@@ -138,49 +162,7 @@ using Pet_Store_Class_Exercise_1;
                         }
 
                     }
-                    /*
-                   else if (userInput.ToLower().Trim() == "3")
-                   {
-                       userInput = Console.ReadLine();
-                       if (productLogic.GetCatFoodByName(userInput) != null)
-                       {
-
-
-                           Console.WriteLine($"Catfood {productLogic.GetCatFoodByName(userInput).ToString()}");
-                       }
-                       else
-                       {
-                           Console.WriteLine("Cat Food Not Fount");
-                           continue;
-                       }
-
-               }
-
-
-
-               else if(userInput.Trim().ToLower() == "dogleash")
-               {
-                   DogLeash dogLeash = new DogLeash();
-                   productLogic.AddProduct(dogLeash);
-                   Console.WriteLine("dogLeash Selected enter dogleash parameters");
-               }
-               else if (userInput.Trim().ToLower() == "catfood")
-               {
-                   CatFood catFood = new CatFood();
-                   productLogic.AddProduct(catFood);
-                   Console.WriteLine("Catfood selected enter catfood parameters");
-               }
-              else
-               {
-                   Console.WriteLine("Enter dogl to add paremeters");
-               }
-               if (userInput.ToLower().Trim() == "dogl")
-               {
-
-
-                   EnterDogFood(productLogic, userInput);
-               }
-                */
+               
                     userInput = Console.ReadLine();
                 }
             }
