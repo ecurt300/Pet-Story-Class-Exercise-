@@ -28,9 +28,20 @@ namespace Pet_Store_Class_Exercise_1
             }
         }
 
-        public static Product GetDogLeashByName(string name)
+        public static Product? GetProductByName(string name)
         {
-            return _productDictionary[name];
+            
+            try
+            {
+                Product product = _productDictionary[name];
+               
+                return product;
+            }
+            catch
+            {
+                Console.WriteLine($"Sorry product of {name} was not found. ");
+            }
+            return null;
         }
       
         public static void GetAllProducts()
