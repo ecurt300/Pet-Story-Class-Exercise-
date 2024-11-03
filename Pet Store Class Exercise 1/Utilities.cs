@@ -17,31 +17,37 @@ namespace Utilities
         public static int? ReadInputInt()
         {
             string? input = Console.ReadLine();
-
-            if (int.TryParse(input, out int value))
+            int value = 0;
+            if (input != null && int.TryParse(input, out value))
+            {
                 return value;
+
+            }
             Console.WriteLine("Invalid Input");
-            return default;
+            return null;
         }
 
         public static double? ReadInputDouble()
         {
             string? input = Console.ReadLine();
-
-            if (double.TryParse(input, out double value))
+            double value = 0;
+            if (double.TryParse(input, out value))
                 return value;
             Console.WriteLine("Invalid Input");
-            return default;
+            return null;
         }
 
         public static decimal? ReadInputDecimal()
         {
             string? input = Console.ReadLine();
-
-            if (decimal.TryParse(input, out decimal value))
+            decimal value = 0;
+            if (input != null && decimal.TryParse(input, out value))
+            {
                 return value;
+
+            }
             Console.WriteLine("Invalid Input");
-            return default;
+            return null;
         }
 
         public static bool CheckInput(string? paremeter)

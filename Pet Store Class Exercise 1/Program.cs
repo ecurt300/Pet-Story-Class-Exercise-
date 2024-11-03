@@ -2,6 +2,7 @@
 
 using Pet_Store_Class_Exercise_1;
 using Utilities;
+#pragma warning disable CS8629
 public static class PetStore
 {
  
@@ -9,11 +10,11 @@ public static class PetStore
     
  
     public static void Main(string[] args)
-    { 
+    {
 
 
-        
-                string? userInput = string.Empty;
+
+        string? userInput = string.Empty;
                 Console.WriteLine("Welcome the Pet Store  Type 1 to enter a product, to search for a product press 8 type exit to quit");
 
                 userInput = Utilities.Utilities.ReadInputString();
@@ -86,7 +87,7 @@ public static class PetStore
 
                                 Console.WriteLine("Enter Quantity of Product");
                               
-                                int quantity = (int)(Utilities.Utilities.ReadInputInt());
+                                int quantity = (int)Utilities.Utilities.ReadInputInt();
 
 
                                 userInput = Utilities.Utilities.ReadInputString();
