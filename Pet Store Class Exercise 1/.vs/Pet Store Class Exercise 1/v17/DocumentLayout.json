@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,20 +38,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Utilities.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\Utilities.cs",
               "RelativeDocumentMoniker": "Utilities.cs",
               "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\Utilities.cs",
               "RelativeToolTip": "Utilities.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAQAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwDcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T18:45:09.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductLogic.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\ProductLogic.cs",
               "RelativeDocumentMoniker": "ProductLogic.cs",
@@ -59,8 +59,7 @@
               "RelativeToolTip": "ProductLogic.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T22:24:45.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T22:24:45.907Z"
             },
             {
               "$type": "Document",
@@ -106,7 +105,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T18:32:13.65Z",
               "EditorCaption": ""
