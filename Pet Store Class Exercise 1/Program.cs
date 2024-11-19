@@ -42,92 +42,109 @@ public static class PetStore
 
         }
     }
-    private static void ChooseCatFood()
+    private static void ChooseCatFood(int choice)
     {
-        CatFood catFood = new CatFood();
-        Console.WriteLine("Enter cat food parameters");
-
-        Console.WriteLine("Enter Name of Product");
-
-       ;
-
-        string? name = Utilities.Utilities.ReadInputString();
-
-        Console.WriteLine("Enter Description of Product");
-
-
-        string? description = Utilities.Utilities.ReadInputString(); ;
-
-        Console.WriteLine("Enter Price of Product");
-
-        decimal price = ((decimal)Utilities.Utilities.ReadInputDecimal());
-
-        Console.WriteLine("Enter Quantity of Product");
-
-        int quantity = (int)Utilities.Utilities.ReadInputInt();
-
-        string? choice = Utilities.Utilities.ReadInputString();
-       
-        bool isKittenFood = false;
-        if (choice == "kitten food")
+        do
         {
-            isKittenFood = Utilities.Utilities.CheckInput("kitten food");
-        }
-        Console.WriteLine("Enter weight of Product");
+            if (choice == 3)
+            {
+                break;
+            }
+            CatFood catFood = new CatFood();
+            Console.WriteLine("Enter cat food parameters");
 
-        int weight = (int)Utilities.Utilities.ReadInputInt();
-
-
-        catFood.AddQuantity(quantity);
-        catFood.SetName(name);
-        catFood.SetWeightOfFood(weight);
-        catFood.SetKittenFood(isKittenFood);
-        catFood.AddDescription(description);
-        catFood.SetPrice(price);
+            Console.WriteLine("Enter Name of Product");
 
 
-        Console.WriteLine($"Cat Food {JsonSerializer.Serialize(catFood)}");
+
+            string? name = Utilities.Utilities.ReadInputString();
+
+            Console.WriteLine("Enter Description of Product");
+
+
+            string? description = Utilities.Utilities.ReadInputString(); ;
+
+            Console.WriteLine("Enter Price of Product");
+
+            decimal price = ((decimal)Utilities.Utilities.ReadInputDecimal());
+
+            Console.WriteLine("Enter Quantity of Product");
+
+            int quantity = (int)Utilities.Utilities.ReadInputInt();
+
+            string? foodChoice = Utilities.Utilities.ReadInputString();
+
+            bool isKittenFood = false;
+            if (foodChoice == "kitten food")
+            {
+                isKittenFood = Utilities.Utilities.CheckInput("kitten food");
+            }
+            Console.WriteLine("Enter weight of Product");
+
+            int weight = (int)Utilities.Utilities.ReadInputInt();
+
+
+            catFood.AddQuantity(quantity);
+            catFood.SetName(name);
+            catFood.SetWeightOfFood(weight);
+            catFood.SetKittenFood(isKittenFood);
+            catFood.AddDescription(description);
+            catFood.SetPrice(price);
+
+
+            Console.WriteLine($"Cat Food {JsonSerializer.Serialize(catFood)}");
+            
+            
+        } while (choice == 1);
     }
-    private static void ChooseDogleash()
+    private static void ChooseDogleash(int choice)
     {
-        DogLeash dogLeash = new DogLeash();
-        Console.WriteLine("Enter dogLeash parameters");
+        do
+        {
 
-        Console.WriteLine("Enter Name of Product");
+            if(choice == 3)
+            {
+                break;
+            }
+            DogLeash dogLeash = new DogLeash();
+            Console.WriteLine("Enter dogLeash parameters");
 
-
-        string? name = Utilities.Utilities.ReadInputString();
-
-        Console.WriteLine("Enter Description of Product");
-
-
-        string? description = Utilities.Utilities.ReadInputString();
-
-        Console.WriteLine("Enter Price of Product");
-
-        decimal price = (decimal)Utilities.Utilities.ReadInputDecimal();
-
-        Console.WriteLine("Enter Quantity of Product");
-
-        int quantity = (int)Utilities.Utilities.ReadInputInt();
-
-        Console.WriteLine("Enter Length of Product");
+            Console.WriteLine("Enter Name of Product");
 
 
-        decimal length = (decimal)Utilities.Utilities.ReadInputDecimal();
+            string? name = Utilities.Utilities.ReadInputString();
 
-        Console.WriteLine("Enter Type of Material of Product");
+            Console.WriteLine("Enter Description of Product");
 
-        string? material = Utilities.Utilities.ReadInputString();
 
-        dogLeash.Material = material;
-        dogLeash.SetName(name);
-        dogLeash.SetLength((int)length);
-        dogLeash.AddDescription(description);
-        dogLeash.SetMaterial(material);
-        dogLeash.AddQuantity(quantity);
-        dogLeash.SetName(name);
-        Console.WriteLine($"Dogleash {JsonSerializer.Serialize(dogLeash)}");
+            string? description = Utilities.Utilities.ReadInputString();
+
+            Console.WriteLine("Enter Price of Product");
+
+            decimal price = (decimal)Utilities.Utilities.ReadInputDecimal();
+
+            Console.WriteLine("Enter Quantity of Product");
+
+            int quantity = (int)Utilities.Utilities.ReadInputInt();
+
+            Console.WriteLine("Enter Length of Product");
+
+
+            decimal length = (decimal)Utilities.Utilities.ReadInputDecimal();
+
+            Console.WriteLine("Enter Type of Material of Product");
+
+            string? material = Utilities.Utilities.ReadInputString();
+
+            dogLeash.Material = material;
+            dogLeash.SetName(name);
+            dogLeash.SetLength((int)length);
+            dogLeash.AddDescription(description);
+            dogLeash.SetMaterial(material);
+            dogLeash.AddQuantity(quantity);
+            dogLeash.SetName(name);
+            Console.WriteLine($"Dogleash {JsonSerializer.Serialize(dogLeash)}");
+        } while (choice == 2);
     }
 
 
@@ -139,37 +156,14 @@ public static class PetStore
         string? userInput = string.Empty;
         Console.WriteLine("Welcome the Pet Store  Type 1 to enter a product, to search for a product press 8 type exit to quit");
 
-        userInput = Utilities.Utilities.ReadInputString();
+        userInput = Console.ReadLine();
 
         while (userInput != null && userInput.ToLower().Trim() != "exit")
         {
-
-
-
-            do
-            {
-                Console.WriteLine("Please enter the type of product press type 'dogleash' for leash ; type 'catfood for catfood");
-
-                switch (userInput?.Trim().ToLower())
-                {
-                    case "dogleash":
-                        ChooseDogleash();
-                        break;
-                    case "catfood":
-                        ChooseCatFood();
-                        break;
-                    case "8":
-                        Console.WriteLine("Please enter the type of product press type 'dogleash' for leash ; type 'catfood for catfood");
-                        SearchProduct(userInput.Trim().ToLower());
-                        break;
-
-
-                }
-                userInput = Utilities.Utilities.ReadInputString();
-            } while (userInput == "1");
-            continue;
-
-
+            int choice = (int)Utilities.Utilities.ReadInputInt();
+            ChooseCatFood(choice);
+            ChooseDogleash(choice);
+            userInput = Console.ReadLine();
         }
     }
 }

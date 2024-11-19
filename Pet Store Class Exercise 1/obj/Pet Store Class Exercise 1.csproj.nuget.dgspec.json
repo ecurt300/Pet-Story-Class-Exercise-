@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj": {}
+    "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj": {
+    "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj",
+        "projectUniqueName": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj",
         "projectName": "Pet Store Class Exercise 1",
-        "projectPath": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj",
+        "projectPath": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj",
         "packagesPath": "C:\\Users\\Edward\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet Store Class Exercise 1\\obj\\",
+        "outputPath": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

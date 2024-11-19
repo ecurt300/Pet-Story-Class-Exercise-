@@ -7,15 +7,34 @@ using System.Threading.Tasks;
 
 namespace Pet_Store_Class_Exercise_1
 {
-    public static class ProductLogic
+    public  class ProductLogic : IProductLogic
     {
         private static List<Product>? _products = new List<Product>();
 
         private static Dictionary<string,Product> _productDictionary = new Dictionary<string, Product>();
 
+       
+        //Need to fix possible roadblock I really want to make some of this with generics
+        
+        public List<string?> GetOnlyInStockProducts()
+        {
+          
+          
+           return _products.Where(p => p.Quantity == 0).Select(p => p.Name).ToList();
+        }
+
+        public ProductLogic()
+        {
+            Product product0 = new Product("",0,0,"");
+            Product product1 = new Product("", 0, 0, "");
+            Product product2 = new Product("", 0, 0, "");
+            _products?.Add(product0);
+            _products?.Add(product1);
+            _products?.Add(product2);
+        }
         
 
-        public static void AddProduct(Product product)
+        public void AddProduct(Product product)
         {
             _products?.Add(product);
             if(product is DogLeash)
@@ -28,7 +47,7 @@ namespace Pet_Store_Class_Exercise_1
             }
         }
 
-        public static Product? GetProductByName(string name)
+        public Product? GetProductByName(string name)
         {
             
             try
@@ -44,7 +63,7 @@ namespace Pet_Store_Class_Exercise_1
             return null;
         }
       
-        public static void GetAllProducts()
+        public void GetAllProducts()
         {
             if (_products != null)
             {
@@ -56,4 +75,5 @@ namespace Pet_Store_Class_Exercise_1
         }
        
     }
+        
 }
