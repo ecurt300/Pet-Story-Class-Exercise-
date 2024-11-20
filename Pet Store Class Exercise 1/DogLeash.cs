@@ -9,26 +9,10 @@ namespace Pet_Store_Class_Exercise_1
 {
     public class DogLeash : Product
     {
-        public DogLeash(string name, decimal price, int quantity, string Description,string material,int length) : base(name, price, quantity, Description)
-        {
-            this.LengthInches = length;
-            this.Material = material;
-        
-        }
 
         public int LengthInches {  get; set; }
 
         public string? Material {  get; set; }
 
-        public void SetLength(int length)
-        {
-            LengthInches = length;
-        }
-        
-        public void SetMaterial(string? material)
-        {
-            
-            Material = material;
-        }
     }
 }

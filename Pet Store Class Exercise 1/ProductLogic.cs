@@ -3,57 +3,40 @@ using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Pet_Store_Class_Exercise_1
 {
-    public  class ProductLogic : IProductLogic
+
+    public class ProductLogic : IProductLogic
     {
-        private static List<Product>? _products = new List<Product>();
-
-        private static Dictionary<string,Product> _productDictionary = new Dictionary<string, Product>();
-
-       
-        //Need to fix possible roadblock I really want to make some of this with generics
-        
-        public List<string?> GetOnlyInStockProducts()
-        {
-          
-          
-           return _products.Where(p => p.Quantity == 0).Select(p => p.Name).ToList();
-        }
-
-        public ProductLogic()
-        {
-            Product product0 = new Product("",0,0,"");
-            Product product1 = new Product("", 0, 0, "");
-            Product product2 = new Product("", 0, 0, "");
-            _products?.Add(product0);
-            _products?.Add(product1);
-            _products?.Add(product2);
-        }
-        
-
+        List<Product> products = new List<Product>();
+        Dictionary<string,Product> productDictionary = new Dictionary<string, Product>();
         public void AddProduct(Product product)
         {
-            _products?.Add(product);
-            if(product is DogLeash)
+            products.Add(product);
+            productDictionary.Add(product.Name, product);
+        }
+
+        public void GetAllProducts()
+        {
+           foreach (Product product in products)
             {
-                _productDictionary.Add(product.Name,product as DogLeash);
+                Console.WriteLine(product.Name);
             }
-            else if(product is CatFood)
-            {
-                _productDictionary.Add(product.Name, product as CatFood);
-            }
+        }
+
+        public List<string?> GetOnlyInStockProducts()
+        {
+            return products.Where(p => p.Quantity == 0).Select(p => p.Name).ToList();
         }
 
         public Product? GetProductByName(string name)
         {
-            
             try
             {
-                Product product = _productDictionary[name];
-               
+                Product product = productDictionary[name];
+
                 return product;
             }
             catch
@@ -62,18 +45,6 @@ namespace Pet_Store_Class_Exercise_1
             }
             return null;
         }
-      
-        public void GetAllProducts()
-        {
-            if (_products != null)
-            {
-                foreach (Product product in _products)
-                {
-                    Console.WriteLine(product.Name);
-                }
-            }
-        }
-       
     }
-        
+
 }

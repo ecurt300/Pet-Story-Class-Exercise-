@@ -5,166 +5,98 @@ using Utilities;
 #pragma warning disable CS8629
 public static class PetStore
 {
-    private static void SearchProduct(string? userInput)
+
+    //Untested refactor will probably workss
+    private static void SearchProductByQuantity(ProductLogic productLogic)
     {
-        Console.WriteLine("Type 2 to find dog leash by name");
-        Console.WriteLine("Tyoe 3 to find catfood by name");
-        userInput = Utilities.Utilities.ReadInputString();
-        if (userInput?.ToLower().Trim() == "2")
-        {
-            DogLeash? dogLeash = null;
-            Console.WriteLine("Enter Name of Dog Leash");
-            userInput = Utilities.Utilities.ReadInputString();
-
-            dogLeash = (DogLeash?)ProductLogic.GetProductByName(userInput);
-
-
-
-            if (dogLeash != null)
-            {
-                Console.WriteLine($"{JsonSerializer.Serialize(dogLeash)}");
-            }
-
-
-
-        }
-        else if (userInput?.ToLower().Trim() == "3")
-        {
-            CatFood? catFood = null;
-            Console.WriteLine("Enter Name of cat food");
-            userInput = Utilities.Utilities.ReadInputString();
-
-            if (catFood != null)
-            {
-                Console.WriteLine($"{catFood.ToString()}");
-
-            }
-
+       List<string> products = productLogic.GetOnlyInStockProducts();
+       foreach (string product in products)
+       {
+            Console.WriteLine(product);
         }
     }
-    private static void ChooseCatFood(int choice)
+    private static void AddCatFood(ProductLogic productLogic)
     {
-        do
-        {
-            if (choice == 3)
-            {
-                break;
-            }
-            CatFood catFood = new CatFood();
-            Console.WriteLine("Enter cat food parameters");
+        Console.WriteLine("Adding Cat Food");
 
-            Console.WriteLine("Enter Name of Product");
+        CatFood catFood = new CatFood();
 
+   
+        Console.WriteLine("Enter Name of Catfood");
+        var name = Utilities.Utilities.ReadInputString();
+        Console.WriteLine("Enter Quantity of Catfood");
+        var qantity = Utilities.Utilities.ReadInputInt();
+        catFood.Name = name;
+        catFood.Quantity = (int)qantity;
+       //Enter rest of values
+        
+        productLogic.AddProduct(catFood);
 
-
-            string? name = Utilities.Utilities.ReadInputString();
-
-            Console.WriteLine("Enter Description of Product");
-
-
-            string? description = Utilities.Utilities.ReadInputString(); ;
-
-            Console.WriteLine("Enter Price of Product");
-
-            decimal price = ((decimal)Utilities.Utilities.ReadInputDecimal());
-
-            Console.WriteLine("Enter Quantity of Product");
-
-            int quantity = (int)Utilities.Utilities.ReadInputInt();
-
-            string? foodChoice = Utilities.Utilities.ReadInputString();
-
-            bool isKittenFood = false;
-            if (foodChoice == "kitten food")
-            {
-                isKittenFood = Utilities.Utilities.CheckInput("kitten food");
-            }
-            Console.WriteLine("Enter weight of Product");
-
-            int weight = (int)Utilities.Utilities.ReadInputInt();
-
-
-            catFood.AddQuantity(quantity);
-            catFood.SetName(name);
-            catFood.SetWeightOfFood(weight);
-            catFood.SetKittenFood(isKittenFood);
-            catFood.AddDescription(description);
-            catFood.SetPrice(price);
-
-
-            Console.WriteLine($"Cat Food {JsonSerializer.Serialize(catFood)}");
-            
-            
-        } while (choice == 1);
+       
     }
-    private static void ChooseDogleash(int choice)
+    private static void AddDogleash(ProductLogic productLogic)
     {
-        do
-        {
-
-            if(choice == 3)
-            {
-                break;
-            }
-            DogLeash dogLeash = new DogLeash();
-            Console.WriteLine("Enter dogLeash parameters");
-
-            Console.WriteLine("Enter Name of Product");
+        Console.WriteLine("Adding Dog Leash");
+        DogLeash dogLeash = new DogLeash();
 
 
-            string? name = Utilities.Utilities.ReadInputString();
+        Console.WriteLine("Enter Name of dogleash");
+        var name = Utilities.Utilities.ReadInputString();
+        Console.WriteLine("Enter Quantity of dogleash");
+        var qantity = Utilities.Utilities.ReadInputInt();
+        dogLeash.Name = name;
+        dogLeash.Quantity = (int)qantity;
+        //Enter rest of values
 
-            Console.WriteLine("Enter Description of Product");
+        productLogic.AddProduct(dogLeash);
 
-
-            string? description = Utilities.Utilities.ReadInputString();
-
-            Console.WriteLine("Enter Price of Product");
-
-            decimal price = (decimal)Utilities.Utilities.ReadInputDecimal();
-
-            Console.WriteLine("Enter Quantity of Product");
-
-            int quantity = (int)Utilities.Utilities.ReadInputInt();
-
-            Console.WriteLine("Enter Length of Product");
-
-
-            decimal length = (decimal)Utilities.Utilities.ReadInputDecimal();
-
-            Console.WriteLine("Enter Type of Material of Product");
-
-            string? material = Utilities.Utilities.ReadInputString();
-
-            dogLeash.Material = material;
-            dogLeash.SetName(name);
-            dogLeash.SetLength((int)length);
-            dogLeash.AddDescription(description);
-            dogLeash.SetMaterial(material);
-            dogLeash.AddQuantity(quantity);
-            dogLeash.SetName(name);
-            Console.WriteLine($"Dogleash {JsonSerializer.Serialize(dogLeash)}");
-        } while (choice == 2);
     }
 
 
     public static void Main(string[] args)
     {
 
-
-
-        string? userInput = string.Empty;
-        Console.WriteLine("Welcome the Pet Store  Type 1 to enter a product, to search for a product press 8 type exit to quit");
-
-        userInput = Console.ReadLine();
-
-        while (userInput != null && userInput.ToLower().Trim() != "exit")
+        bool isRunning = true;
+        Console.WriteLine("Welcome to the little petshop interface , press 1 to add dogleash,press 2 to add catfood, press 3 to search product by name, to print all products press 4, to quite press q");
+        ProductLogic productLogic = new ProductLogic();
+        while (isRunning)
         {
-            int choice = (int)Utilities.Utilities.ReadInputInt();
-            ChooseCatFood(choice);
-            ChooseDogleash(choice);
-            userInput = Console.ReadLine();
+            var userInput = Utilities.Utilities.ReadInputString();
+
+            switch (userInput)
+            {
+                case "q":
+                isRunning = false;
+                Console.WriteLine("Quiting");
+                break;
+                case "1":
+                    //productLogic add product dogleash
+                AddDogleash(productLogic);
+                break;
+                case "2":
+                //productLogic add product catfood
+                AddCatFood(productLogic);
+                break;
+                case "3":
+                    //SearchProductByName
+                    Console.WriteLine("Search product by name");
+                    var name = Utilities.Utilities.ReadInputString();
+                    productLogic.GetProductByName(name);
+                    break;
+                case "4":
+                    Console.WriteLine("Printing out all products");
+                    productLogic.GetAllProducts();
+                    break;
+                case "5":
+                    Console.WriteLine("printing ordered by quantity");
+                    SearchProductByQuantity(productLogic);
+                    break;
+               
+               
+
+            }
         }
+
     }
 }
 
