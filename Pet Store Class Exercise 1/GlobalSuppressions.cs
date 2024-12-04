@@ -5,4 +5,4 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("Performance", "CA1862:Use the 'StringComparison' method overloads to perform case-insensitive string comparisons", Justification = "<Pending>", Scope = "member", Target = "~M:Pet_Store_Class_Exercise_1.PetStore.Main(System.String[])")]
+[assembly: SuppressMessage("Performance", "CA1862:Use the 'StringComparison' method overloads to perform case-insensitive string comparisons", Justification = "<Pending>", Scope = "member", Target = "~M:Pet_Store_Class_Exercise.PetStore.Main(System.String[])")]

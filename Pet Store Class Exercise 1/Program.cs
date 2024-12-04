@@ -1,19 +1,20 @@
 ﻿
 using System.Text.Json;
-using Pet_Store_Class_Exercise_1;
+using Pet_Store_Class_Exercise_1.ProductLogic;
+using Pet_Store_Class_Exercise_1.Products;
 using Utilities;
 #pragma warning disable CS8629
 public static class PetStore
 {
 
-    //Untested refactor will probably workss
+
     private static void SearchProductByQuantity(ProductLogic productLogic)
     {
-       List<string> products = productLogic.GetOnlyInStockProducts();
-       foreach (string product in products)
+       List<Product> products = productLogic.GetOnlyInStockProducts();
+       foreach (Product product in products)
        {
-            Console.WriteLine(product);
-        }
+            Console.WriteLine(product.Name);
+       }
     }
     private static void AddCatFood(ProductLogic productLogic)
     {
@@ -23,14 +24,15 @@ public static class PetStore
 
    
         Console.WriteLine("Enter Name of Catfood");
-        var name = Utilities.Utilities.ReadInputString();
+        var name = Utilities.InputUtilities.ReadInputString();
         Console.WriteLine("Enter Quantity of Catfood");
-        var qantity = Utilities.Utilities.ReadInputInt();
+        var qantity = Utilities.InputUtilities.ReadInputInt();
         catFood.Name = name;
         catFood.Quantity = (int)qantity;
-       //Enter rest of values
+       //Enter rest of values TODO 
         
         productLogic.AddProduct(catFood);
+        
 
        
     }
@@ -41,12 +43,12 @@ public static class PetStore
 
 
         Console.WriteLine("Enter Name of dogleash");
-        var name = Utilities.Utilities.ReadInputString();
+        var name = Utilities.InputUtilities.ReadInputString();
         Console.WriteLine("Enter Quantity of dogleash");
-        var qantity = Utilities.Utilities.ReadInputInt();
+        var qantity = Utilities.InputUtilities.ReadInputInt();
         dogLeash.Name = name;
         dogLeash.Quantity = (int)qantity;
-        //Enter rest of values
+        //Enter rest of values TODO 
 
         productLogic.AddProduct(dogLeash);
 
@@ -57,11 +59,11 @@ public static class PetStore
     {
 
         bool isRunning = true;
-        Console.WriteLine("Welcome to the little petshop interface , press 1 to add dogleash,press 2 to add catfood, press 3 to search product by name, to print all products press 4, to quite press q");
+        Console.WriteLine("Welcome to the little petshop interface , press 1 to add dogleash,press 2 to add catfood, press 3 to search product by name, to print all products press 4,print ordered by quantity, to quite press q");
         ProductLogic productLogic = new ProductLogic();
         while (isRunning)
         {
-            var userInput = Utilities.Utilities.ReadInputString();
+            var userInput = Utilities.InputUtilities.ReadInputString();
 
             switch (userInput)
             {
@@ -70,17 +72,17 @@ public static class PetStore
                 Console.WriteLine("Quiting");
                 break;
                 case "1":
-                    //productLogic add product dogleash
+           
                 AddDogleash(productLogic);
                 break;
                 case "2":
-                //productLogic add product catfood
+                
                 AddCatFood(productLogic);
                 break;
                 case "3":
-                    //SearchProductByName
+             
                     Console.WriteLine("Search product by name");
-                    var name = Utilities.Utilities.ReadInputString();
+                    var name = Utilities.InputUtilities.ReadInputString();
                     productLogic.GetProductByName(name);
                     break;
                 case "4":

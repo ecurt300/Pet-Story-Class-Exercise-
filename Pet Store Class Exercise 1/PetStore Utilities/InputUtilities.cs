@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Utilities
 {
-    public static class Utilities
+    public static class InputUtilities
     {
 
         public static string? ReadInputString()
         {
+
+            
+
+
 
             return Console.ReadLine();
         }

@@ -61,9 +61,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj",
-      "projectName": "Pet Store Class Exercise 1",
-      "projectPath": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj",
+      "projectUniqueName": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store.csproj",
+      "projectName": "Pet Store",
+      "projectPath": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store.csproj",
       "packagesPath": "C:\\Users\\Edward\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\obj\\",
       "projectStyle": "PackageReference",

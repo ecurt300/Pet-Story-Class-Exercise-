@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Pet_Store_Class_Exercise_1.Products;
 
-namespace Pet_Store_Class_Exercise_1
+namespace Pet_Store_Class_Exercise_1.ProductLogic
 {
     public interface IProductLogic
     {
+        public List<Product?> GetOnlyInStockProducts();
+        public void GetAllProducts();
+
         public void AddProduct(Product product);
 
         public Product? GetProductByName(string name);
 
-        public void GetAllProducts();
-
-        public List<string?> GetOnlyInStockProducts();
-      
+        public decimal? GetTotalProductPrice();
     }
 }

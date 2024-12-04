@@ -1,17 +1,18 @@
-﻿using System;
+﻿using Pet_Store_Class_Exercise;
+using Pet_Store_Class_Exercise_1.Products;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 
 
-namespace Pet_Store_Class_Exercise_1
+namespace Pet_Store_Class_Exercise_1.ProductLogic
 {
 
     public class ProductLogic : IProductLogic
     {
         List<Product> products = new List<Product>();
-        Dictionary<string,Product> productDictionary = new Dictionary<string, Product>();
+        Dictionary<string, Product> productDictionary = new Dictionary<string, Product>();
         public void AddProduct(Product product)
         {
             products.Add(product);
@@ -20,15 +21,16 @@ namespace Pet_Store_Class_Exercise_1
 
         public void GetAllProducts()
         {
-           foreach (Product product in products)
+            foreach (Product product in products)
             {
                 Console.WriteLine(product.Name);
             }
         }
 
-        public List<string?> GetOnlyInStockProducts()
+        public List<Product> GetOnlyInStockProducts()
         {
-            return products.Where(p => p.Quantity == 0).Select(p => p.Name).ToList();
+
+            return products.InStock().ToList();
         }
 
         public Product? GetProductByName(string name)
@@ -44,6 +46,14 @@ namespace Pet_Store_Class_Exercise_1
                 Console.WriteLine($"Sorry product of {name} was not found. ");
             }
             return null;
+        }
+
+        public decimal? GetTotalProductPrice()
+        {
+            var productInstockList = ListExtensions.InStock(products).ToList();
+            var query = productInstockList.Select(x => x.Price).ToList();
+
+            return query.Sum();
         }
     }
 

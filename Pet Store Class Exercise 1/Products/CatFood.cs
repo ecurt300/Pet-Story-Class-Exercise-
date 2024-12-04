@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pet_Store_Class_Exercise_1
+namespace Pet_Store_Class_Exercise_1.Products
 {
     public class CatFood : Product
     {
-       
-        public double WeightPounds {  get; set; }
 
-        public bool KittenFood {  get; set; }
-   
+        public double WeightPounds { get; set; }
+
+        public bool KittenFood { get; set; }
+
     }
 }

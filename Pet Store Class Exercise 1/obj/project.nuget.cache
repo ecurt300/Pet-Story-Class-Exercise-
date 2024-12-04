@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a360dVM2MHr15orayjes8c4Vqw+k5wAxOOpgtB9M6b4qAXYx4gCRNse8o2HBOBg3hVT/F8rUyOS60r4QhgK8HQ==",
+  "dgSpecHash": "4+T+wPfoWGe8o6+aVBGvyRQNgjy58A4x4jtcofxy6xeHkMmtf0kE245c3RraAWcT4qhb1YncKdp62dhRKashtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store Class Exercise 1.csproj",
+  "projectFilePath": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edward\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
