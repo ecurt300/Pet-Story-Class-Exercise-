@@ -3,47 +3,61 @@
   "WorkspaceRootPath": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\productlogic\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:productlogic\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{452B541A-6468-4569-AF83-61E6E6FA7B53}|..\\TestPetShop\\TestPetShop.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\testpetshop\\unittestproductlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\products\\catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:products\\catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\petstore utilities\\listextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:petstore utilities\\listextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{452B541A-6468-4569-AF83-61E6E6FA7B53}|..\\TestPetShop\\TestPetShop.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\testpetshop\\testpetshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\productlogic\\iproductlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\testing\\testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:testing\\testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\productlogic\\iproductlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:productlogic\\iproductlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\petstore utilities\\inpututilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:petstore utilities\\inpututilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\pet store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\pet store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:pet store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\petstore utilities\\inpututilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:petstore utilities\\inpututilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\productlogic\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:productlogic\\productlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\petstore utilities\\listextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:petstore utilities\\listextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\products\\catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:products\\catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store Class Exercise 1.csproj|solutionrelative:catfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|c:\\users\\edward\\documents\\code louisville\\in classroom 0\\pet store class exercise\\pet-story-class-exercise-\\pet store class exercise 1\\products\\dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\products\\dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B217CCA-5D7D-4237-9689-0FFB8337E2F0}|Pet Store.csproj|solutionrelative:products\\dogleash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,11 +68,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "TestPetShop",
+              "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\TestPetShop\\TestPetShop.csproj",
+              "RelativeDocumentMoniker": "..\\TestPetShop\\TestPetShop.csproj",
+              "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\TestPetShop\\TestPetShop.csproj",
+              "RelativeToolTip": "..\\TestPetShop\\TestPetShop.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T19:08:23.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTestProductLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\TestPetShop\\UnitTestProductLogic.cs",
+              "RelativeDocumentMoniker": "..\\TestPetShop\\UnitTestProductLogic.cs",
+              "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\TestPetShop\\UnitTestProductLogic.cs",
+              "RelativeToolTip": "..\\TestPetShop\\UnitTestProductLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:07:35.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Testing.cs",
+              "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Testing\\Testing.cs",
+              "RelativeDocumentMoniker": "Testing\\Testing.cs",
+              "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Testing\\Testing.cs",
+              "RelativeToolTip": "Testing\\Testing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:24:38.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:15:35.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GlobalSuppressions.cs",
+              "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\GlobalSuppressions.cs",
+              "RelativeDocumentMoniker": "GlobalSuppressions.cs",
+              "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\GlobalSuppressions.cs",
+              "RelativeToolTip": "GlobalSuppressions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:14:14.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Pet Store.csproj",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Pet Store.csproj",
               "RelativeDocumentMoniker": "Pet Store.csproj",
@@ -70,12 +153,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "ListExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\PetStore Utilities\\ListExtensions.cs",
               "RelativeDocumentMoniker": "PetStore Utilities\\ListExtensions.cs",
@@ -88,20 +167,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "CatFood.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Products\\CatFood.cs",
               "RelativeDocumentMoniker": "Products\\CatFood.cs",
               "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Products\\CatFood.cs",
               "RelativeToolTip": "Products\\CatFood.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T20:47:06.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "GlobalSuppressions.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\GlobalSuppressions.cs",
               "RelativeDocumentMoniker": "GlobalSuppressions.cs",
@@ -109,8 +188,7 @@
               "RelativeToolTip": "GlobalSuppressions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T20:43:56.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T20:43:56.995Z"
             },
             {
               "$type": "Document",
@@ -120,40 +198,40 @@
               "RelativeDocumentMoniker": "ProductLogic\\IProductLogic.cs",
               "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\ProductLogic\\IProductLogic.cs",
               "RelativeToolTip": "ProductLogic\\IProductLogic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T17:43:09.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "InputUtilities.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\PetStore Utilities\\InputUtilities.cs",
               "RelativeDocumentMoniker": "PetStore Utilities\\InputUtilities.cs",
               "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\PetStore Utilities\\InputUtilities.cs",
               "RelativeToolTip": "PetStore Utilities\\InputUtilities.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T18:45:09.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "ProductLogic.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\ProductLogic\\ProductLogic.cs",
               "RelativeDocumentMoniker": "ProductLogic\\ProductLogic.cs",
               "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\ProductLogic\\ProductLogic.cs",
               "RelativeToolTip": "ProductLogic\\ProductLogic.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAtwB4AAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T22:24:45.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "DogLeash.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Products\\DogLeash.cs",
               "RelativeDocumentMoniker": "Products\\DogLeash.cs",
@@ -166,19 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CatFood.cs",
-              "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\CatFood.cs",
-              "RelativeDocumentMoniker": "CatFood.cs",
-              "ToolTip": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\CatFood.cs",
-              "RelativeToolTip": "CatFood.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:36:14.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Products\\Product.cs",
               "RelativeDocumentMoniker": "Products\\Product.cs",
@@ -191,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Documents\\Code Louisville\\In classroom 0\\Pet Store Class Exercise\\Pet-Story-Class-Exercise-\\Pet Store Class Exercise 1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -199,8 +265,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwDIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:32:13.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T18:32:13.65Z"
             }
           ]
         }

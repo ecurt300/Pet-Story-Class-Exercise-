@@ -51,10 +51,12 @@ namespace Pet_Store_Class_Exercise_1.ProductLogic
         public decimal? GetTotalProductPrice()
         {
             var productInstockList = ListExtensions.InStock(products).ToList();
-            var query = productInstockList.Select(x => x.Price).ToList();
+            var query = productInstockList.Select(product => product.Price).ToList();
 
             return query.Sum();
         }
     }
+
+
 
 }
